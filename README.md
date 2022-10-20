@@ -1,5 +1,3 @@
-# My learning diary:
-
 **Execute Program** progress:
 
 - ~Javascript Arrays:~ **{100%}**
@@ -8,15 +6,14 @@
 - Modern Javascript: 13%<br>
 
 Finished reading O'reilly's Javascript: The Good Parts
-
-Key points:
+<details>
+<summary>Key points</summary>
 
 - Always use scope 
-- something
-- something
-- something
+- Demystified some grammar 
+
+</details>
 
 Started reading "Don't Make Me Think: A Common Sense Approach To Web Usability"
 
 - Learned the word "satisfice", which is a portmanteau of "Satisfy" and "Suffice".
-
