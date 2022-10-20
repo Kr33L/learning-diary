@@ -5,6 +5,8 @@
 - Regular Expressions: 61%<br>
 - Modern Javascript: 13%<br>
 
+---
+
 Finished reading: **O'reilly's Javascript: The Good Parts**
 <details>
 <summary>Key points</summary><br>
