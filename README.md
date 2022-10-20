@@ -16,6 +16,9 @@ Finished reading: **O'reilly's Javascript: The Good Parts**
 
 </details>
 
-Started reading: **"Don't Make Me Think: A Common Sense Approach To Web Usability"**
+Started reading:<br><br>
+**"Don't Make Me Think: A Common Sense Approach To Web Usability by Steve Krug"**<br>
+**"The Markdown Guide by Matt Cone"**<br>
 
 - Learned the word "satisfice", which is a portmanteau of "Satisfy" and "Suffice".
+
