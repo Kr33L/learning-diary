@@ -7,7 +7,7 @@
 
 ---
 
-Finished reading: **O'reilly's Javascript: The Good Parts**
+Finished reading: **`"O'reilly's Javascript: The Good Parts"`**
 <details>
 <summary>Key points</summary><br>
   
@@ -17,9 +17,8 @@ Finished reading: **O'reilly's Javascript: The Good Parts**
 </details>
 
 Started reading:<br><br>
-**"Don't Make Me Think: A Common Sense Approach To Web Usability by Steve Krug"**<br>
-**"The Markdown Guide by Matt Cone"**<br>
-
+**`"Don't Make Me Think: A Common Sense Approach To Web Usability by Steve Krug"`**<br>
+**`"The Markdown Guide by Matt Cone"`**<br>
 - Learned the word "satisfice", which is a portmanteau of "Satisfy" and "Suffice".
 
 In some regex systems, .{,5} means "at most five characters". That's not true in JS. JS interprets it as a literal string.
