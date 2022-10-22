@@ -1,7 +1,7 @@
 **Execute Program** progress:
 
 - ~Javascript Arrays:~ **{100%}** ⭐
-- ~Javascript Concurrency:~ **{100%}**⭐
+- ~Javascript Concurrency:~ **{100%}** ⭐
 - Regular Expressions: 98%<br>
 - Modern Javascript: 26%<br>
 
