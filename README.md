@@ -21,9 +21,22 @@ Started reading:<br><br>
 **`"The Markdown Guide by Matt Cone"`**<br>
 - Learned the word "satisfice", which is a portmanteau of "Satisfy" and "Suffice".
 
+---
+
 In some regex systems, .{,5} means "at most five characters". That's not true in JS. JS interprets it as a literal string.
 ```js
 /^.{,5}$/.test('.{,5}');
 ```
 
+---
+
 Returns true.
+
+Found out that there are two isNan() functions.<br>
+```js
+Number.isNan()
+``` 
+and 
+```js
+.isNan()
+```
