@@ -2,8 +2,8 @@
 
 - ~Javascript Arrays:~ **{100%}**
 - ~Javascript Concurrency:~ **{100%}**<br>
-- Regular Expressions: 85%<br>
-- Modern Javascript: 13%<br>
+- Regular Expressions: 98%<br>
+- Modern Javascript: 26%<br>
 
 ---
 
@@ -34,9 +34,9 @@ Returns true.
 
 Found out that there are two isNan() functions.<br>
 ```js
-Number.isNan()
+Number.isNan(x)
 ``` 
 and 
 ```js
-.isNan()
+isNan(x)
 ```
