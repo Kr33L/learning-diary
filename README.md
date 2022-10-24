@@ -33,23 +33,18 @@
 
 ---
 
-In some regex systems, .{,5} means "at most five characters". That's not true in JS. JS interprets it as a literal string.
+In some regex systems, `/.{,5}/` means "at most five characters". That's not true in JS which interprets it as a literal string.
 ```js
-/^.{,5}$/.test('.{,5}');
+/^.{,5}$/.test('.{,5}'); // true
 ```
 
 ---
 
-Returns true.
-
-Found out that there are two isNan() functions.<br>
+Found out that there are two functions to check if something is NaN.<br>
 ```js
-Number.isNan(x)
+Number.isNan(x) // good
+isNan(x) // bad
 ``` 
-and 
-```js
-isNan(x)
-```
 
 ---
 
