@@ -7,6 +7,10 @@
 
 ---
 
+Wild idea: Separate javascript file for appending classes to avoid html clutter.
+
+---
+
 #### Finished reading: 
 "O'reilly's Javascript: The Good Parts"
 <details>
