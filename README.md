@@ -7,10 +7,6 @@
 
 ---
 
-Wild idea: Separate javascript file for appending classes to avoid html clutter.
-
----
-
 #### Finished reading: 
 "O'reilly's Javascript: The Good Parts"
 <details>
@@ -59,4 +55,17 @@ const user = { name: 'Amir' };
 const userName = () => { return this.name; }
 userName.bind(user);
 userNameBound(); //'Amir'
+```
+
+---
+
+Wild idea: Separate javascript file for appending classes to avoid html clutter.
+
+Destructuring can be written as either (for nested objects)
+```js
+const name = user.cat.name;
+```
+or
+```js
+const {cat: {name}} = user;
 ```
