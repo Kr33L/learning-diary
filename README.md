@@ -69,3 +69,23 @@ or
 ```js
 const {cat: {name}} = user;
 ```
+
+---
+
+**Sets**:
+
+A set's size reflects the number of unique values that it holds. Duplicates passed to the constructor or added with .add don't contribute to the size.
+An array's method `.includes` slows down as an array gets longer, a set's method `.has` mostly fixes this problem.
+
+```js
+const names = new Set(['Amir', 'Betty', 'Amir']);
+//methods
+names.add("Jim");
+names.delete("Jim");
+names.clear();
+names.has(name)
+names.size;
+//convert to array with
+Array.from(names.values());
+```
+
