@@ -89,3 +89,6 @@ names.size;
 Array.from(names.values());
 ```
 
+---
+
+Learned about testing and the TDD process.
