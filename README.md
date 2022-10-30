@@ -92,3 +92,19 @@ Array.from(names.values());
 ---
 
 Learned about testing and the TDD process.
+
+---
+**Accessor properties stack error**
+
+```js
+class User {
+  set name(newName) {
+    this.name = newName;
+  }
+}
+
+const amir = new User();
+amir.name = 'Amir';
+```
+
+The setter tried to do `this.name = newName`, which called the setter again, which did `this.name = newName` again until we hit the maximum stack size, which causes the JavaScript runtime to error.
