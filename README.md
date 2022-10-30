@@ -3,7 +3,7 @@
 - ~Javascript Arrays:~ **{100%}** ⭐
 - ~Javascript Concurrency:~ **{100%}** ⭐
 - ~Regular Expressions:~ **{100%}** ⭐
-- Modern Javascript: 63%<br>
+- Modern Javascript: 71%<br> 
 
 ---
 
