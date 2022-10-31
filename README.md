@@ -108,3 +108,11 @@ amir.name = 'Amir';
 ```
 
 The setter tried to do `this.name = newName`, which called the setter again, which did `this.name = newName` again until we hit the maximum stack size, which causes the JavaScript runtime to error.
+
+---
+
+**Computed Properties in classes**
+
+When the class is being constructed, the virtual machine evaluates the string to get the method or accessor name. After the class is defined, those names won't change.
+
+```
