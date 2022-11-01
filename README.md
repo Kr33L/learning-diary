@@ -2,7 +2,7 @@
 - ~Javascript Arrays:~ **{100%}** ⭐
 - ~Javascript Concurrency:~ **{100%}** ⭐
 - ~Regular Expressions:~ **{100%}** ⭐
-- Modern Javascript: 87%<br> 
+- Modern Javascript: 92%<br> 
 ---
 # Current
 ### Javascript Iterables
