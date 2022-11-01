@@ -1,11 +1,45 @@
 **Execute Program** progress:
-
 - ~Javascript Arrays:~ **{100%}** ⭐
 - ~Javascript Concurrency:~ **{100%}** ⭐
 - ~Regular Expressions:~ **{100%}** ⭐
 - Modern Javascript: 87%<br> 
+---
+# Current
+### Javascript Iterables
+
+```js
+class NumberIterator {
+  constructor() {
+    this.value = 0;
+  }
+  
+  next() {
+    if (this.value < 3) {
+      const value = this.value;
+      this.value += 1;
+      return {value, done: false};
+    } else {
+      return {value: undefined, done: true};
+    }
+  }
+}
+
+class NumbersBelowThree {
+  [Symbol.iterator]() {
+    return new NumberIterator();
+  }
+}
+
+const numbers = [];
+for (const n of new NumbersBelowThree()) {
+  numbers.push(n);
+}
+numbers;
+```
 
 ---
+
+### Book Corner
 
 #### Finished reading: 
 "O'reilly's Javascript: The Good Parts"
@@ -31,6 +65,9 @@
 
 "The Markdown Guide by Matt Cone"<br>
 
+### HISTORICAL ENTRIES
+<details>
+<summary>expand</summary>
 ---
 
 In some regex systems, `/.{,5}/` means "at most five characters". That's not true in JS which interprets it as a literal string.
@@ -116,3 +153,4 @@ The setter tried to do `this.name = newName`, which called the setter again, whi
 When the class is being constructed, the virtual machine evaluates the string to get the method or accessor name. After the class is defined, those names won't change.
 
 ```
+</details>
