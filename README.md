@@ -7,6 +7,9 @@
 # Current
 ### Javascript Iterables
 
+<details>
+  <summary> Class approach </summary>
+  
 ```js
 class NumberIterator {
   constructor() {
@@ -36,6 +39,41 @@ for (const n of new NumbersBelowThree()) {
 }
 numbers;
 ```
+                       
+</details>
+<details>
+  <summary> Object approach</summary>
+  
+```js
+const numbersBelowThree = {
+  [Symbol.iterator]: () => makeIterator()
+};
+
+function makeIterator() {
+  let currentValue = 0;
+
+  return {
+    next() {
+      const value = currentValue;
+      currentValue += 1;
+
+      if (value < 3) {
+        return {value, done: false};
+      } else {
+        return {value: undefined, done: true};
+      }
+    }
+  };
+}
+
+const numbers = [];
+for (const n of numbersBelowThree) {
+  numbers.push(n);
+}
+numbers;
+```
+                    
+</details>
 
 ---
 
