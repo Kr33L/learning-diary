@@ -46,6 +46,15 @@ From _**"Don't Make Me Think"**_
 ---
 ### Diary:
 
+#### Metaphors for a Richer Understanding:
+
+- Metaphors are heuristics, not algorithms. Combine metaphors as necessary,
+- Metaphors help you understand the software development process by relating it to other activities you already know about,
+- They can lead you in the wrong direction if extended too far,
+- Software construction and building construction: careful preparation, difference between small and large projects,
+- Development practices as tools in a toolbox - no single tool is right for every job. Choosing the right tool is key to being an effective programmer.
+- Metaphors are not mutually exclusive. Use a combination that works well for you.
+
 <details>
 <summary>Historical</summary>
 
