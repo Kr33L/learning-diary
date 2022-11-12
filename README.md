@@ -27,8 +27,14 @@
 - Do not use `for in` as it does not iterate through the properties in order and sometimes pulls in from further up the prototype chain.
 ---
 From _**"Don't Make Me Think"**_
-  
-- Learned the word "satisfice", which is a portmanteau of "Satisfy" and "Suffice".
+
+- People make decisions through satisficing,
+
+- People don't read web pages (they scan them),
+
+- Pages should be self-evident. Don't make me think, don't waste my time,
+
+- "Satisfice" (a blend of "**Satis**fy" and "Suff**ice**") is the idea of choosing the first reasonable option instead of the best possible option.
 
 ---
 
